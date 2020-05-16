@@ -1,0 +1,14 @@
+library project Sdl2AdaGeneratedBindings is
+   for Languages use ("Ada");
+   for Library_Name use "Generated_Sdl";
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Library_Dir use "lib";
+   for Library_Kind use "static";
+
+
+   package Linker is
+      for Linker_Options use ("-lSDL2", "-lSDL2_image"); --, "-l:libz.so.1.2.9");
+   end Linker;
+
+end Sdl2AdaGeneratedBindings;

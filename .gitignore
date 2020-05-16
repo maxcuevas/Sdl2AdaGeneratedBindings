@@ -1,0 +1,11 @@
+*.a
+*.ali
+*.lexch
+*.db
+*.cgpr
+*.stderr
+*.stdout
+*.o
+*.xml
+*.db-shm
+*.db-wal
