@@ -1,0 +1,1 @@
+# Sdl2AdaGeneratedBindings
